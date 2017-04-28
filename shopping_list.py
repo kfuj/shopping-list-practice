@@ -105,9 +105,9 @@ def show_all_lists(lists_by_name):
     Returns:
       None
     """
+    for key, value in lists_by_name.items():
+        print key, value
 
-    # your code here! 
-    pass
 
 
 def parse_string_of_items(items_string):
